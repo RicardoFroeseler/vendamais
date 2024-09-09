@@ -72,6 +72,7 @@ iframe {
     text-align: center;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     z-index: 1000;
+    
 }
 
 .whatsapp-float a {
@@ -79,6 +80,7 @@ iframe {
     justify-content: center;
     align-items: center;
     height: 100%;
+    text-decoration: none; /* Remover sublinhado do link */
 }
 
 .whatsapp-icon {
@@ -89,6 +91,11 @@ iframe {
 .whatsapp-float:hover {
     background-color: #20c354;
     cursor: pointer;
+}
+
+#ICONEWHATSAPP{
+    font-size: 36px;
+    color: #f0f0f0;
 }
 
 
