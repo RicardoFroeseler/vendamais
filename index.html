@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <title>Minha Página com Iframe</title>
+    <!-- icones -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="title">Materprint assistencia tecnica LTDA</h1>
+        <p>Bem-vindo ao seu software de gestao para restaurantes mais completo!</p>
+    </header>
+    <nav>
+        
+        <button class="style_button" onclick="window.open('http://link2.com', '_blank')">Pagina inicial</button>
+        <button class="style_button" onclick="toggleFullScreen()">Tela Cheia</button>
+        
+        <button class="style_button" onclick="openPopup()">Drivers impressoras</button>
+        <button class="style_button" onclick="window.open('http://link4.com', '_blank')">Tutoriais</button>
+        <button class="style_button" onclick="window.open('http://link5.com', '_blank')">Comprar anuidade</button>
+        
+        <button class="style_button" onclick="window.open('https://api.whatsapp.com/send/?phone=5531985266186&text=Ola%2C+estou+entrando+em+contato+direto+do+aplicativo+venda+mais%21&type=phone_number&app_absent=0', '_blank', 'width=800,height=600,left=100,top=100,scrollbars=no')"><i class="fa-brands fa-whatsapp"></i> Suporte</button>
+
+        <button class="style_button" onclick="window.open('http://link5.com', '_blank')">Instalar App</button>
+
+    </nav>
+
+    <!-- Estrutura do popup -->
+<div id="infoPopup" class="popup">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup()">&times;</span>
+        <h2>Informações Importantes</h2>
+        <p>Aqui estão algumas informações que você gostaria de compartilhar no popup.</p>
+    </div>
+</div>
+
+    <section id="main-content">
+        <iframe src="https://vendamais.tiapps.com.br/" frameborder="0" style="width: 100%; height: 800px;" id="meuIframe"></iframe>
+    </section>
+
+    <!-- Botão flutuante do WhatsApp -->
+    <div class="whatsapp-float">
+        <a href="https://wa.me/5531985266186" target="_blank">
+            <i class="fa-brands fa-whatsapp whatsapp-icon"></i>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="fullscreem.js"></script>
+</body>
+</html>
+
+
