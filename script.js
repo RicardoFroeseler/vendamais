@@ -7,3 +7,5 @@ function openPopup() {
 function closePopup() {
     document.getElementById('infoPopup').style.display = 'none';
 }
+
+
